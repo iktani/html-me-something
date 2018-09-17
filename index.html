@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My html me something submission</title>    
+  <title>My html me something submission</title>  
+  <link rel="stylesheet" href="styles.css">  
 </head>
 <body>
   <header>
-    <img src="images/Banner Pic Arches.jpg"/>
+    <img class="banner" src="images/Banner Pic Arches.jpg" alt="Arches National Park Banner Pic" />
     <h1>Southwest Trip 2015</h1>
     <h3>5 National Parks, 10 Days, and memories to last a lifetime</h3>
+    <br>
     <nav>
       <ul>
-        <li><a href="#GC">Grand Canyon</a></li>
+        <li><a href="#GC">Grand Canyon NP</a></li>
         <li><a href="#Page">Page, AZ</a></li>
         <li><a href="#Mesa">Mesa Verde NP</a></li>
         <li><a href="#Arches">Arches NP</a></li>
@@ -21,28 +23,31 @@
   </header>
   <main>
     <article>
-      <h2 id="GC">Grand Canyon</h2>
-      <img src="images/GrandC1.jpg"/>
+      <h2 id="GC">Grand Canyon National Park</h2>
+      <img class="landscape" src="images/GrandC1.jpg" alt="Grand Canyon National Park"/>
       <p>The trip started with a flight to Phoenix, Arizona and a shuttle 
         up to Flagstaff. Met up with the rest of my family and then on to the 
         South Rim of the Grand Canyon. We stayed in one of the Park's lodges 
         and did several hikes both along and down into the canyon.
-      </p>
+      </p> 
     </article>
     <article>
       <h2 id="Page">Page, AZ</h2>
-      <img src="images/PageAZ RaftTrip.jpg"/>
+      <img class="landscape" src="images/PageAZ RaftTrip.jpg" alt="Colorado River Raft Trip" />
       <p>Next stop was Page, Arizona. Home to Horseshoe Bend, Antelope Canyon,
         and the starting point for a raft trip down the Colorado River. Antelope
         Canyon is one of the more famous slot canyons that you've probably seen 
         in photographs. 
       </p>
-      <img src="images/PageAZ AntelopeCanyon2.jpg"/>
-      <img src="images/PageAZ AntelopeCanyon3.jpg"/>
+      
+      <div class="align-center">
+        <img class="portrait" src="images/PageAZ AntelopeCanyon2.jpg" alt="Antelope Canyon" />
+        <img class="portrait" src="images/PageAZ AntelopeCanyon3.jpg" alt="Antelope Canyon" />
+      </div>
     </article>
     <article>
       <h2 id="Mesa">Mesa Verde National Park</h2>
-      <img src="images/MesaVerde1.jpg"/>
+      <img class="landscape" src="images/MesaVerde1.jpg" alt="Cliff Palace, Mesa Verde NP" />
       <p>We dipped into Colorado for our third stop, Mesa Verde National Park
         which featured cliff dwellings over 700 years old. The above image shows 
         one of these dwellings known as Cliff Palace. We did a Park Ranger led 
@@ -52,24 +57,26 @@
     </article>
     <article>
       <h2 id="Arches">Arches National Park</h2>
-      <img src="images/Arches1.jpg"/>
+      <img class="landscape" src="images/Arches1.jpg" alt="Arches National Park" />
       <p>Arches National Park was our first stop in the state of Utah near
         Moab. The appropriately named park features numerous naturally occuring
-        stone arch formations. 
+        stone arch formations. Delicate Arch, the most famous of all the arch formations 
+        in the park, is shown in the banner image at the top of this page.
       </p>
     </article>
     <article>
       <h2 id="Bryce">Bryce Canyon National Park</h2>
-      <img src="images/Bryce1.jpg"/>
+      <img class="landscape" src="images/Bryce1.jpg" alt="Bryce Canyon National Park" />
       <p>We stayed in the state of Utah for our next stop. Without a doubt, 
         the most alien-looking of the parks we visited, Bryce was 20 degrees cooler
         than all the other stops on our trip. The signature feature of the park
-        are the strange looking "hoodoos" shown in the above image. 
+        are the strange looking "hoodoos" shown in the above image. Another panaramic 
+        of the park is shown in the banner image at the very bottom of this page.
       </p>
     </article>
     <article>
       <h2 id="Zion">Zion National Park</h2>
-      <img src="images/Zion.jpg"/>
+      <img class="landscape" src="images/Zion.jpg" alt="Zion National Park" />
       <p>Our last stop before heading home was Zion National Park. Of all the Parks
         we visited, Zion was the most majestic. Grand Canyon was massive to be sure, but 
         Zion had towering cliffs of its own and you just had the sense of being small 
@@ -77,11 +84,13 @@
         favorite hike of the trip was here in Zion. Known as the Narrows, it was a trek 
         through the Virgin River flanked by high-as-you-can-see sheer cliff faces.
       </p>
-      <img src="images/Zion Narrows1.jpg"/>
-      <img src="images/Zion Narrows 2.jpg"/>
-    </article>
+      <div class="align-center">
+        <img class="portrait" src="images/Zion Narrows1.jpg" alt="Zion Narrows Hike" />
+        <img class="portrait" src="images/Zion Narrows 2.jpg"alt="Zion Narrows Hike" />
+      </div>
+      </article>
   </main>
-  <footer>@copy All photos taken by the author</footer>
-  <img src="images/Banner Pic Bryce.jpg"/> 
+  <footer>&copy All photos taken by the author, Irwin Tani</footer>
+  <img class="banner" src="images/Banner Pic Bryce.jpg" alt="Bryce Banner Image" /> 
 </body>
 </html>
